@@ -10,6 +10,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Fuente_1;
+    font-size: 2vw;
+    text-shadow: 1px 1px 1px #000;
+    color: #f0f0f0;
 }
 @font-face {
     font-family: 'Fuente_1';
@@ -29,6 +33,9 @@ body{
     -webkit-box-shadow: 3px 3px 4px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 4px -4px rgba(0,0,0,0.75);
     
+}
+h2{
+    width: 100%;
 }
 main h1{
     font-family: Fuente_1;
@@ -54,11 +61,14 @@ main h1{
 }
 .index_image{
     position: absolute;
+    border: 2px solid #38c69e57;
+    border-radius: 20%;
 }
 .select_colors{
     display: flex;
     flex-direction: column;
     align-items: self-start;
+    text-align: center;
 }
 .select_colors_opts{
     display: flex;
@@ -76,8 +86,14 @@ main h1{
     margin-left: 3px;
     cursor: pointer;
 }
-
-
+.section_options{
+    display: flex;
+    flex-direction: column;
+}
+.container_options{
+    overflow: auto;
+    white-space: nowrap;
+}
 
 
 
@@ -135,6 +151,13 @@ main h1{
 
     body, main {
         width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+    main h1{
+        font-family: Fuente_1;
+        font-size: 7vw;
+        padding-bottom: 1vh;
     }
     .preview_and_color {
         flex-direction: column;
