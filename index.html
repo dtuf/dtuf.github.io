@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es" class="notraslate" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notraslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dtuf</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+  </head>
+  <body>
+    <main>
+      <h1>Crea tu propio estilo de alfombra!</h1>
+      <section class="preview_and_color"><!--seccion vista previa y seleccion de colores-->
+        <div class="preview_image">
+          <img class="index_image image_1" src="src/images/living.png" alt="">
+          <img class="index_image image_2" id="alfombra_borde" src="src/images/alf_1_borde_A.png" alt="">
+          <img class="index_image image_3" id="alfombra_interior" src="src/images/alf_1_interior_A.png" alt="">
+        </div>
+        <div class="select_colors">
+          <h2>Elige los colores:</h2>
+          <div class="select_colors_opts">
+            <p>Interior: </p>
+            <div class="circle_color color_A" onclick="CambioColor('interior_A');"></div>
+            <div class="circle_color color_B" onclick="CambioColor('interior_B');"></div>
+            <div class="circle_color color_C" onclick="CambioColor('interior_C');"></div>
+          </div>
+          <div class="select_colors_opts">
+            <p>Borde: </p>
+            <div class="circle_color color_J" onclick="CambioColor('borde_A')";></div>
+            <div class="circle_color color_H" onclick="CambioColor('borde_B')";></div>
+            <div class="circle_color color_I" onclick="CambioColor('borde_C');"></div>
+
+          </div>
+        </div>
+      </section>
+
+      <section><!--seccion galeria para vista previa-->
+        <h2>Selecciona el modelo:</h2>
+        <div>
+          <img src="src/images/dis_1.png" alt="Op">
+          <img src="src/images/dis_1.png" alt="Op">
+          <img src="src/images/dis_1.png" alt="Op">
+          <img src="src/images/dis_1.png" alt="Op">
+          <img src="src/images/dis_1.png" alt="Op">
+          <img src="src/images/dis_1.png" alt="Op">
+          
+
+        </div>
+      </section>
+    </main>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>

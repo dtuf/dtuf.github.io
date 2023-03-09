@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/bk.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Fuente_1';
+    src: url('TiltWarp-Regular-VariableFont_XROT\,YROT.ttf') format('woff');
+}
+
+* main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(59, 238, 238, 0.61); 
+    height: 90vh;
+    width: 70vw;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 4px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px -4px rgba(0,0,0,0.75);
+    
+}
+main h1{
+    font-family: Fuente_1;
+    font-size: 3vw;
+    text-shadow: 1px 1px 1px #000;
+    color: #979797;
+}
+.preview_and_color{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50vw;
+    justify-content: center;
+    height: 50vh;
+}
+.preview_image{
+    height: 49vh;
+    width: 49vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.index_image{
+    position: absolute;
+}
+.select_colors{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+.select_colors_opts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3px;
+}
+.circle_color{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #575151;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.color_A{
+    background-color: aqua;
+}
+.color_B{
+    background-color: rgb(255, 187, 0);
+}
+.color_C{
+    background-color: rgb(255, 0, 200);
+}
+
+.color_D{
+    background-color: rgb(0, 255, 0);
+}
+.color_E{
+    background-color: rgba(0, 204, 255, 0.425);
+}
+.color_F{
+    background-color: rgb(187, 23, 23);
+}
+.color_G{
+    background-color: rgb(211, 226, 69);
+}
+
+.color_H{
+    background-color: rgb(29, 23, 6);
+}
+.color_I{
+    background-color: rgb(74, 167, 154);
+}
+.color_J{
+    background-color: rgb(233, 236, 236);
+}
+
+
+
+@media (orientation: portrait) {
+
+    /*normal*/
+    * {
+        overflow-x: hidden;
+    }
+
+    body, main {
+        width: 100vw;
+    }
+    .preview_and_color {
+        flex-direction: column;
+    }
+}
