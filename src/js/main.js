@@ -7,22 +7,22 @@ function CambioColor(color){
     let borde = document.getElementById('alfombra_borde');
     switch (color){
         case  'interior_A':
-            interior.src = "src/images/alf_1_interior_A.png"
+            interior.style.filter = "invert(82%) sepia(87%) saturate(4508%) hue-rotate(105deg) brightness(100%) contrast(105%)";
             break;
         case 'interior_B':
-            interior.src = "src/images/alf_1_interior_B.png"
+            interior.style.filter = "invert(85%) sepia(21%) saturate(7014%) hue-rotate(358deg) brightness(101%) contrast(102%)";
             break;
         case 'interior_C':
-            interior.src = "src/images/alf_1_interior_C.png"
+            interior.style.filter = "invert(82%) sepia(25%) saturate(4967%) hue-rotate(228deg) brightness(81%) contrast(84%)";
             break;
         case  'borde_A':
-            borde.src = "src/images/alf_1_borde_A.png"
+            borde.style.filter = "invert(97%) sepia(8%) saturate(45%) hue-rotate(130deg) brightness(98%) contrast(92%)";
             break;
         case  'borde_B':
-            borde.src = "src/images/alf_1_borde_B.png"
+            borde.style.filter = "invert(8%) sepia(68%) saturate(447%) hue-rotate(6deg) brightness(95%) contrast(99%)";
             break;
         case  'borde_C':
-            borde.src = "src/images/alf_1_borde_C.png"
+            borde.style.filter = "invert(57%) sepia(38%) saturate(517%) hue-rotate(122deg) brightness(95%) contrast(87%)";
             break;
     }
 }

@@ -36,6 +36,7 @@ body{
 }
 h2{
     width: 100%;
+    text-align: center;
 }
 main h1{
     font-family: Fuente_1;
@@ -89,6 +90,9 @@ main h1{
 .section_options{
     display: flex;
     flex-direction: column;
+    height: 15vh;
+    background-color: rgba(59, 238, 169, 0.61);
+    padding-bottom: 1vh;
 }
 .container_options{
     overflow: auto;
@@ -164,5 +168,8 @@ main h1{
     }
     .preview_and_color {
         flex-direction: column;
+    }
+    .section_options{
+        height: 12vh;
     }
 }
